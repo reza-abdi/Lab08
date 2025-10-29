@@ -18,6 +18,10 @@ public class CustomList {
         cities.remove(city);
     }
 
+    public int countCities() {
+        return cities.size();
+    }
+
     public boolean hasCity(City city) {
         return cities.contains(city);
     }
